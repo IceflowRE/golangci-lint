@@ -2263,25 +2263,25 @@ linters:
 
       # Whether to rewrite const declarations with multiple identifiers inside functions into a const block.
       # Default: false
-      constDeclFuncToBlock: true
+      const-decl-func-to-block: true
       # Whether to rewrite const declarations with multiple identifiers at package scope into a const block.
       # Default: true
-      constDeclPkgToBlock: false
+      const-decl-pkg-to-block: false
       # Whether to rewrite var declarations with multiple identifiers inside functions into a const block.
       # Default: false
-      varDeclFuncToBlock: true
+      var-decl-func-to-block: true
       # Whether to rewrite var declarations with multiple identifiers at package scope into a var block.
       # Default: true
-      varDeclPkgToBlock: false
+      var-decl-pkg-to-block: false
       # Whether to rewrite var declarations with multiple identifiers and initializers inside functions into a var block.
       # Default: false
-      varDeclInitFuncToBlock: true
+      var-decl-init-func-to-block: true
       # Whether to rewrite untyped var declarations with multiple identifiers inside functions into short declarations.
       # Default: true
       varDeclInitFuncToShort: false
       # Whether to rewrite var declarations with multiple identifiers and initializers at package scope into a var block.
       # Default: false
-      varDeclInitPkgToBlock: false
+      var-decl-init-pkg-to-block: false
 
     musttag:
       # A set of custom functions to check in addition to the builtin ones.
